@@ -1,0 +1,46 @@
+.bar-below.bar-below_plus {
+    display: none;
+}
+.notify {
+    display: none;
+}
+/*Disable Right Bar*/
+/*.sidebar.deco-pane {
+    display: none;
+}*/
+/*.centerblock-wrapper.deco-pane.theme.theme_dark.black {
+    width: calc(100% - 0px);
+}*/
+.sidebar__sticky {
+    /*Для тёмной темы*/
+    background: #121212;
+    padding: 1px;
+    /*Для светлой темы*/
+    /*background:#e5e5e5;
+    padding: 0px;*/
+}
+/*Плавный ход линии*/
+.progress__line__branding, .progress__bar > div {
+    transition: 0.5s !important;
+}
+
+/*Скрыть надоедлевый попап перекрывающий полосу регулировки громкости*/
+.subscription-hint.local-theme-black.popup.deco-pane-popup.subscription-hint_bottom {
+    display: none;
+}
+
+/*Рекламный блок справа*/
+/*div[data-b="49"] {
+    display: none;
+}*/
+/*v2*/
+.sidebar.deco-pane > div:nth-of-type(1) > div:nth-last-of-type(1) {
+    display: none;
+}
+
+div[data-b="2"] {
+  display: none !important;;
+}
+.deco-pane-popup.deco-pane-arrow_down.deco_shadow {
+    display: none;
+}

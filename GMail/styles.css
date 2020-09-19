@@ -1,0 +1,38 @@
+.a4t, #loading {
+    opacity: 1;
+    background: rgb(34, 34, 34) url('https://source.unsplash.com/random/featured/?nature') !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.a4t {
+    animation: 3s blur both;
+}
+
+@keyframes blur {
+    90% {
+       filter: blur(0px);
+    }
+    100% {
+        filter: blur(3px);
+    }
+}
+
+.msg {
+    color: white !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,.65);
+}
+
+#loading {
+    filter: brightness(10%);
+    animation: 5s startLoader both;
+}
+
+@keyframes startLoader {
+    10% {
+        filter: brightness(10%);
+    }
+    100% {
+        filter: brightness(100%);
+    }
+}

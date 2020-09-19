@@ -1,0 +1,100 @@
+/*Убираем новости под сайтом*/
+.pulse-lenta {
+    display: none;
+}
+/*Идеал-FIX*/
+body {
+  background: #222 url('https://source.unsplash.com/random/featured/?nature');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  image-rendering: optimizequality;
+}
+.grid__lcol.grid__lcol_mailbox.i-pull-left {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.grid__main-col {
+  display: none;
+}
+.coronavirus {
+  display: none;
+}
+.projects {
+  display: none;
+}
+#grid\:middle {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+#mailbox-container {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+.grid__header.i-relative {
+  display: none;
+}
+html {
+  height: 0;
+}
+
+/*Допил идеала*/
+.logo__img {
+    filter: sepia();
+    width: 100% !important;
+    min-width: 300px;
+    /*background-size: cover !important;*/
+    image-rendering: optimizequality;
+}
+#auth {
+  background: #000000b3;
+  color: white;
+}
+#mailbox\:activeEmail {
+  color: white;
+}
+.i-link-deco.mailbox__account-name.i-fade {
+  color: white;
+  font-weight: bold;
+}
+a {
+  color: white;
+}
+#mailbox\:letterIcon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width=%2216%22 height=%2213%22 viewBox=%220 0 16 13%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath d=%22M14.4 13H1.6A1.613 1.613 0 0 1 0 11.375v-9.75A1.612 1.612 0 0 1 1.6 0h12.8A1.612 1.612 0 0 1 16 1.625v9.75c.007.89-.71 1.618-1.6 1.625zm-.707-10a.787.787 0 0 0-1.117-.112L8.634 6.234c-.399.21-.875.21-1.274 0L3.43 2.899a.787.787 0 0 0-1.115.112.807.807 0 0 0 .111 1.127L4.12 5.576c.232.26.377.585.414.931-.001.06-.007.12-.017.178L2.811 9.001a.85.85 0 0 0 .177 1.145.751.751 0 0 0 1.085-.189l2-2.721 1.142.969a.989.989 0 0 0 .763.476c.306-.027.584-.19.758-.444a.273.273 0 0 0 .023-.014l1.161-.986 2 2.72a.748.748 0 0 0 1.083.189.851.851 0 0 0 .177-1.145l-1.7-2.316a1.306 1.306 0 0 1-.017-.178c.036-.339.175-.659.4-.915l1.72-1.46A.809.809 0 0 0 13.693 3z%22 fill=%22%23FFFF%22 fill-rule=%22evenodd%22/%3E%3C/svg%3E");
+}
+.icon_write {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width=%2215%22 height=%2215%22 viewBox=%220 0 15 15%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Ctitle%3ERounded_Rectangle_41_copy_6%3C/title%3E%3Cpath d=%22M14.553 4.396l-1.437 1.436-3.951-3.95L10.602.448a1.523 1.523 0 0 1 2.155 0l1.796 1.795a1.522 1.522 0 0 1 0 2.154zM12.04 6.909l-6.826 6.823a1.97 1.97 0 0 1-1.257.536l-3.233.718a.536.536 0 0 1-.536-.18.604.604 0 0 1-.179-.535l.718-3.231c.023-.47.213-.916.536-1.258L8.088 2.96l3.951 3.95zm-7.635 4.938L3.147 10.59a.38.38 0 0 0-.536 0 .361.361 0 0 0-.072.108l-.018-.019-.468 1.834a.31.31 0 0 0 .107.322c.073.1.203.143.322.107l1.833-.469-.018-.018a.37.37 0 0 0 .107-.072.382.382 0 0 0 0-.536z%22 fill=%22%23FFFF%22 fill-rule=%22evenodd%22/%3E%3C/svg%3E");
+}
+svg {
+  fill: black;
+  /*! color: black; */
+  filter: invert(100%);
+}
+.i-color-white {
+  color: black !important;
+}
+.mailbox__dropdown__button-account .mailbox__account-email::after, .mailbox__dropdown__button-account .mailbox__account-name::after {
+  background: none;
+  border-right: 2px dotted #fff;
+}
+.mailbox__dropdown__button-account:hover .mailbox__account-email::after, .mailbox__dropdown__button-account:hover .mailbox__account-name::after {
+  background: none;
+}
+#P_Exit_16x16 {
+  filter: brightness(0%);
+}
+/*Допил идеала v2 (Авторизация)*/
+.mailbox__control.mailbox__control_saveauth.mailbox__control_left.i-font-md.i-color-black {
+  color: white !important;
+}
+#restore {
+  color: white !important;
+}
+#mailbox\:select_container > svg {
+  filter: invert(0%);
+}

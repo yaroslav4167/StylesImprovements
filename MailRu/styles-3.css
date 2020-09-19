@@ -1,0 +1,40 @@
+/*Рекламный блок в новостиях на главной странице*/
+.grid__ccol.i-pull-left > div:nth-last-of-type(2) {
+  display: none;
+}
+/*Растягиваем новости для заполнения пространства от рекламных блоков*/
+.grid__ccol.i-pull-left {
+    width: 100%;
+}
+/*Правка в почтовом ящике*/
+.layout_right-size_60 .layout__main-frame {
+    margin-right: 0;
+}
+.portal-menu__group_float {
+    float: right;
+    margin-right: 250px;
+}
+.theme-t5001 .compose-button__wrapper:hover {
+
+    background-color:
+
+    #b1ffa6;
+
+}
+.compose-button_white:hover .compose-button__wrapper {
+
+    background:
+
+    #f5f5f7;
+        background-color: rgb(245, 245, 247);
+
+}
+
+.layout__column.layout__column_right {
+    display: none;
+}
+
+/*Рекламный блок над списком сообщений*/
+.letter-list-item-adv {
+    display: none;
+}
