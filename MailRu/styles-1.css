@@ -4,7 +4,7 @@
 }
 /*Идеал-FIX*/
 body {
-  background: #222 url('https://source.unsplash.com/random/featured/?nature');
+  background: #222 url('https://source.unsplash.com/featured/?nature');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
