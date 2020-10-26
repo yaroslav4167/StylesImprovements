@@ -1,7 +1,14 @@
 /* Swap like and dislike */
-.like {
-  right: 50px;
+.thumbs {
+    display: flex;
 }
+
+.like {
+  order: 0;
+  margin-right: 8px;
+}
+
 .dislike {
-  left: 50px;
+  order: 1;
+  margin: auto !important;
 }
