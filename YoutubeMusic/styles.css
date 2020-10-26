@@ -1,0 +1,7 @@
+/* Swap like and dislike */
+.like {
+  right: 50px;
+}
+.dislike {
+  left: 50px;
+}
