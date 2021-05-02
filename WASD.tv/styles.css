@@ -1,3 +1,7 @@
 .iframe {
   display: contents;
 }
+#loader-wrapper {
+    background: #1a202c;
+    color: white;
+}
