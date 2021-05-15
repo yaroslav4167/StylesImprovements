@@ -5,30 +5,33 @@
   display: inline-block;
   margin-left: 4px;
 }
+
 a {
   display: inline !important;
 }
-.unread > a {
+
+.unread>a {
   color: white;
   font-weight: bold;
   /*! text-shadow: 0px 1px 1px #00000080; */
 }
+
 .container-fluid {
-    background: #ccc;
+  background: #ccc;
 }
 
 .btn.btn-link.p-0 {
-    display: flex !important;
-    margin: auto;
+  display: flex !important;
+  margin: auto;
 }
 
 /*Navbar*/
 .nav-item {
-    display: flex;
+  display: flex;
 }
-@media (max-width: 1580px) {
 
-  .navbar-nav > li > a {
+@media (max-width: 1580px) {
+  .navbar-nav>li>a {
     display: inline-block !important;
     white-space: nowrap;
     overflow: hidden;
@@ -36,63 +39,70 @@ a {
     max-width: 85px;
   }
 
-  .navbar-nav > li:nth-of-type(1) > a {
+  .navbar-nav>li:nth-of-type(1)>a {
     visibility: hidden;
     overflow: hidden;
   }
 
-  .navbar-nav > li:nth-of-type(1) > a:before {
+  .navbar-nav>li:nth-of-type(1)>a:before {
     content: "ИНОТЭКУ";
     visibility: visible;
   }
 
-  .navbar-nav > li:nth-of-type(2) > a {
+  .navbar-nav>li:nth-of-type(2)>a {
     visibility: hidden;
   }
 
-  .navbar-nav > li:nth-of-type(2) > a:before {
+  .navbar-nav>li:nth-of-type(2)>a:before {
     content: "ГУК 103к";
     visibility: visible;
   }
 
-  .navbar-nav > li:nth-of-type(3) > a {
+  .navbar-nav>li:nth-of-type(3)>a {
     visibility: hidden;
     max-width: 115px;
   }
 
-  .navbar-nav > li:nth-of-type(3) > a:before {
+  .navbar-nav>li:nth-of-type(3)>a:before {
     content: "omip@klgtu.ru";
     visibility: visible;
   }
 
-  .navbar-nav > li:nth-of-type(4) > a {
+  .navbar-nav>li:nth-of-type(4)>a {
     max-width: 115px;
   }
 }
+
 @media (max-width: 1000px) {
   .usertext {
     display: none;
   }
 }
+
 @media (max-width: 875px) {
-   .dropdown-toggle::after {
+  .dropdown-toggle::after {
     display: none;
   }
 }
+
 @media (max-width: 850px) {
-  ul.navbar-nav:nth-of-type(1) > li:last-of-type {
+  ul.navbar-nav:nth-of-type(1)>li:last-of-type {
     width: 50px;
   }
-  ul.navbar-nav:nth-of-type(1) > li:nth-of-type(2) {
+
+  ul.navbar-nav:nth-of-type(1)>li:nth-of-type(2) {
     width: 80px;
   }
-  ul.navbar-nav:nth-of-type(2) > li:nth-of-type(1) {
+
+  ul.navbar-nav:nth-of-type(2)>li:nth-of-type(1) {
     display: none;
   }
+
   #nav-notification-popover-container {
     display: contents;
   }
 }
+
 @media (max-width: 750px) {
   #nav-notification-popover-container {
     display: block;
