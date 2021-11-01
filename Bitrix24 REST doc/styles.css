@@ -1,0 +1,8 @@
+/* Spoiler title */
+.dark-theme .forum-spoiler tr > th > div {
+  color: #fff;
+}
+/* Code-block title */
+.dark-theme .forum-code > thead > tr > th {
+  color: #fff !important;;
+}

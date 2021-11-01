@@ -1,0 +1,21 @@
+/*** Breeze dark audioplayer fixes ***/
+/*Разворачивающийся плейлист был скрыт под страницей*/
+.theme--dark.theme--breezedark .coverrow {
+    padding-bottom: 250px;
+}
+
+/*В тёмном режиме не видно полос прогресс-бара*/
+.theme--dark.theme--breezedark #progressBar, .volume-slider::-moz-range-track {
+  background: #cccccc3d !important;
+}
+
+.theme--dark.theme--breezedark .volume-slider::-moz-range-progress {
+  background-color: #0082c9;
+  padding: 2px
+}
+
+/*Выбор типа сортировки*/
+.theme--dark.theme--breezedark #category_selector {
+    background-image: none !important;
+    margin: 7px 0 !important;
+}
