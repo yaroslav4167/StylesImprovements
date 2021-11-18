@@ -6,3 +6,12 @@
 .dark-theme .forum-code > thead > tr > th {
   color: #fff !important;;
 }
+
+/* Quote in comment */
+.entry-quote td {
+    display: block !important;
+}
+
+.dark-theme .forum-quote * {
+    color: white !important;
+}
