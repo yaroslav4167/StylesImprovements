@@ -1,3 +1,22 @@
+/* Replace load image start */
+.la-b > div {
+  opacity: 0;
+}
+.la-b:before {
+  content: " ";
+  background: url('https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png');
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.la-k {
+  opacity: 0;
+}
+/* Replace load image end */
+
 .a4t, #loading {
     opacity: 1;
     background: rgb(34, 34, 34) url('https://source.unsplash.com/featured/?nature') !important;
