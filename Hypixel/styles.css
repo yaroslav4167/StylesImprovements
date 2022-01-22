@@ -1,0 +1,85 @@
+/* Chest animation fix */
+div[class^="index__chest"] {
+   animation:index__chestShrink__YPR 2.5s linear,index__chestOpen__YPR 2.5s step-end !important;
+}
+
+@keyframes index__chestShrink__YPR {
+ 0% {
+  transform:scale(1)
+ }
+ 5% {
+  transform:scale(.9) skewX(-4deg) skewY(18deg)
+ }
+ 10% {
+  transform:scale(1)
+ }
+ 15% {
+  transform:scale(.9) skewX(4deg) skewY(-18deg)
+ }
+ 20% {
+  transform:scale(1)
+ }
+ 25% {
+  transform:scale(.9) skewX(-4deg) skewY(18deg)
+ }
+ 30% {
+  transform:scale(1)
+ }
+ 35% {
+  transform:scale(.9) skewX(4deg) skewY(-18deg)
+ }
+ 40% {
+  transform:scale(1)
+ }
+ 45% {
+  transform:scale(.9) skewX(-4deg) skewY(18deg)
+ }
+ 50% {
+  transform:scale(1)
+ }
+ 55% {
+  transform:scale(.9) skewX(4deg) skewY(-18deg)
+ }
+ 60% {
+  transform:scale(1)
+ }
+ 65% {
+  transform:scale(.9) skewX(-4deg) skewY(18deg)
+ }
+ 70% {
+  transform:scale(1)
+ }
+ 75% {
+  transform:scale(.85) skewX(4deg) skewY(-18deg)
+ }
+ 80% {
+  transform:scale(1)
+ }
+ 85% {
+  transform:scale(.8) skewX(-4deg) skewY(18deg)
+ }
+ 90% {
+  transform:scale(1.2)
+ }
+ 93% {
+  transform:scale(.95) skewX(4deg) skewY(-18deg)
+ }
+ 96% {
+  transform:scale(1.1)
+ }
+ to {
+  transform:scale(1)
+ }
+}
+
+@keyframes index__chestOpen__YPR {
+ 0% {
+  background-position:0 0
+ }
+ 85% {
+  background-position:0 -250px
+ }
+ to {
+  background-position:0 -250px
+ }
+}
