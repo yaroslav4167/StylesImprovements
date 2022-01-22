@@ -17,6 +17,10 @@
 }
 /* Replace load image end */
 
+
+.la-k .la-m {
+    background: transparent !important;
+}
 .a4t, #loading {
     opacity: 1;
     background: rgb(34, 34, 34) url('https://source.unsplash.com/featured/?nature') !important;
@@ -44,13 +48,13 @@
 }
 
 #loading {
-    filter: brightness(10%);
-    animation: 5s startLoader both;
+    filter: brightness(2%);
+    animation: 3s startLoader both;
 }
 
 @keyframes startLoader {
-    10% {
-        filter: brightness(10%);
+    0% {
+        filter: brightness(2%);
     }
     100% {
         filter: brightness(100%);
